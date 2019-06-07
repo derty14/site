@@ -7,6 +7,18 @@ body{
 a {
   text-decoration: none;
   color: #cfcfcf;
+
+}
+h1 {
+  text-align: center;
+}
+.logo {
+  width: 120px;
+  height: 75px;
+  padding-left: 9px;
+  position: absolute;
+  top: 1%;
+  cursor: pointer;
 }
 a:hover {
   color: white;
@@ -28,26 +40,30 @@ button:hover {
 }
 .menu {
   min-height: 50px;
-  padding-top: 2%;
+  padding-top: 3%;
   background: linear-gradient(to right, #be00d4, #6f047a);
 }
 .menu a {
-  padding: 5%;
 
-
+  padding-left: 7%;
 }
-
+.menu .first-menu {
+padding-left: 15%;
+}
 .slider {
 width: auto;
 height: auto;
 color: white;
 position: relative;
 margin: auto;
-
+transition: left 1s ease-in-out;
 }
 .pictures img {
   max-height:500px;
 max-height:500px;
+}
+.first-slide{
+  display: inline-flex;
 }
 .dark {
   background: black;
@@ -61,6 +77,7 @@ max-height:500px;
   z-index: 10;
   top: 35%;
   left: 20%;
+  transition: left 1s ease-in-out;
 }
 .pictures .content-slider button{
   left: 30%;
